@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <style>
+      body{
+        background-color: #FDF5DF;
+        color: #5EBEC4; 
+        font-weight: bold;
+      }
+
+      
+      fieldset{
+        border-color: #F92C85;
+      }
+
+      #button{
+        background-color: beige;
+        color: #5EBEC4; 
+        border-color: antiquewhite;
+      }
+
+
+  </style>
+
+    <head>
+        <meta charset="utf-8">
+        <title> Activity 2</title>
+    </head>
+
+    <header> 
+        <h1> REQUEST FORM (Brochure):</h1>
+    </header>
+
+    <form action="mailto:tenchieadolfo05@gmail.com" method="post">
+        <fieldset>
+          <legend> Personal Information</legend>
+
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="age">Age</label>
+          <input type="text" id="age" name="age"><br><br>
+
+          <label for="Gender">Gender</label>
+          <input type="text" id="gen" name="gen"><br><br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Contact Information</legend>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+    
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required><br><br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Address Information</legend>
+
+          <label for="Permanent Address">Permanent Address:</label>
+          <input type="text" id="Padd" name="Padd" required><br><br>
+    
+          <label for="Temporary Address">Temporary Address:</label>
+          <input type="text" id="Tadd" name="Tadd"><br><br>
+    
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required><br><br>
+    
+          <label for="Province">Province:</label>
+          <input type="text" id="Prov" name="Prov" required><br><br>
+    
+          <label for="zip">ZIP Code:</label>
+          <input type="text" id="zip" name="zip" required><br><br>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" id="button">
+      </form>
+
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Activity 1</title>
+    <style>
+      header {
+        background: lightblue;
+        color: black;
+        padding: 20px;
+        text-align: center;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows: 200px;
+        grid-gap: 10px;
+        padding: 10px;
+      }
+
+      .photo {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .photo:hover img {
+        transform: scale(1.1);
+      }
+
+     
+    </style>
+  </head>
+
+  <header>
+    <h1>DREAM TRAVEL DESTINATIONS</h1>
+  </header>
+
+  <body>
+    <div class="gallery">
+      <div class="photo">
+        <img src="Aokigahara_forest_Japan.jpg" alt="Blue Tree Meadow"/>
+      </div>
+      <div class="photo">
+        <img src="Mont_Blanc_Europe.jpg" alt="Mont Blanc"/>
+      </div>
+      <div class="photo">
+        <img src="Maldives.jpg" alt="Maldives"/>
+      </div>
+      <div class="photo">
+        <img src="La Union.jpg" alt="Elyu" />
+      </div>
+      <div class="photo">
+        <img src="Madrid.jpg" alt="Spain" />
+      </div>
+      <div class="photo">
+        <img src="Paris.jpg" alt="France" />
+      </div>
+      <div class="photo">
+        <img src="Tower of Pisa.jpg" alt="Leaning Tower" />
+      </div>
+      <div class="photo">
+        <img src="Akihabara.jpg" alt="Anime Capital" />
+      </div>
+      <div class="photo">
+        <img src="Singapore.jpg" alt="Merlion" />
+      </div>
+      <div class="photo">
+        <img src="Finland.jpg" alt="Aurora Borealis" />
+      </div>
+      <div class="photo">
+        <img src="Thailand.jpg" alt="Thai" />
+      </div>
+      <div class="photo">
+        <img src="Hollywood.jpg" alt="USA" />
+      </div>
+      <div class="photo">
+        <img src="Times Square NYC.jpg" alt="USA" />
+      </div>
+      <div class="photo">
+        <img src="Iceland_Blue Lagoon.jpg" alt="Blue Lagoon" />
+      </div>
+      <div class="photo">
+        <img src="Rio de Janeiro.jpg" alt="Brazil" />
+      </div>
+    </div>
+  </body>
+</html>

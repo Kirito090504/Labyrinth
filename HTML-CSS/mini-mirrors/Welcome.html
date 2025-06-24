@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    body{
+        background-color:#6BB77B ;
+        color: white;
+    }
+
+    input{
+        background-color: #D76F30;
+    }
+
+</style>
+
+
+
+    <head>
+        <title> Welcome</title>
+    </head>
+
+    <header>
+        <h1> WELCOME TO MY WEBSITE</h1>
+    </header>
+
+<body>
+    <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+        Username:<input type="text" name="username" maxlength="30"> <br><br>
+        Password: <input type="password" id="pword" name="pword"> <br><br>
+
+        <section >
+            Vote for your favorite month of the year:
+            <blockquote>
+                <input type="radio" name="favmonth" id="Jan"><label>January</label> 
+            <br><input type="radio" name="favmonth" id="Feb"><label>February</label>
+            <br><input type="radio" name="favmonth" id="Mar"><label>March</label>
+            <br><input type="radio" name="favmonth" id="Apr"><label>April</label>
+            <br><input type="radio" name="favmonth" id="May"><label>May</label>
+            <br><input type="radio" name="favmonth" id="Jun"><label>June</label>
+            <br><input type="radio" name="favmonth" id="Jul"><label>July</label>
+            <br><input type="radio" name="favmonth" id="Aug"><label>August</label>
+            <br><input type="radio" name="favmonth" id="Sep"><label>September</label>
+            <br><input type="radio" name="favmonth" id="Oct"><label>October</label>
+            <br><input type="radio" name="favmonth" id="Nov"><label>November</label>
+            <br><input type="radio" name="favmonth" id="Dec"><label>December</label>
+            </blockquote>
+        </section>
+
+        <label for="sns">Favorite Social Networking Site:</label>
+        <select name="socialnet" id="sns">
+            <option value="Facebook">Facebook</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Tiktok">Tiktok</option>
+            <option value="Snapchat">Snapchat</option>
+        </select>
+
+        <br>
+        <br>
+        
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <label for="addressLine1">Address Line 1:</label>
+            <input type="text" id="addressLine1" name="addressLine1" required><br><br>
+      
+            <label for="addressLine2">Address Line 2:</label>
+            <input type="text" id="addressLine2" name="addressLine2"><br><br>
+      
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required><br><br>
+      
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required><br><br>
+      
+            <label for="zip">ZIP:</label>
+            <input type="text" id="zip" name="zip" required><br><br>
+        </fieldset>
+
+        <br>
+
+        <input type="image" src="signup.gif" height="100px" width="auto">
+        <input type="hidden" name="userid">
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Activity 4</title>
+    <meta charset="utf-8" />
+  </head>
+  
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        background: lightblue;
+        color: black;
+        padding: 20px;
+        text-align: center;
+      }
+
+      main {
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      footer {
+        background: lightblue;
+        color: black;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .photo {
+        flex-basis: 300px;
+        margin: 10px;
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .photo img:hover {
+        transform: scale(1.1);
+      }
+    </style>
+
+  <body>
+    <header>
+      <h1>FAMILY AND FRIENDS</h1>
+    </header>
+
+    <main>
+      <div class="photo">
+        <img src="" alt="Photo 1" />
+      </div>
+      <div class="photo">
+        <img src="" alt="Photo 2" />
+      </div>
+      <div class="photo">
+        <img src="" alt="Photo 3" />
+      </div>
+      <div class="photo">
+        <img src="" alt="Photo 4" />
+      </div>
+      <div class="photo">
+        <img src="" alt="Photo 5" />
+      </div>
+      <div class="photo">
+        <img src="" alt="Photo 6" />
+      </div>
+      <div class="photo">
+        <img src="" alt="Photo 7" />
+      </div>
+      <div class="photo">
+        <img src="" alt="Photo 8" />
+      </div>
+    </main>
+
+    <footer>
+      Copyright &copy; 2023 Tenchie Adolfo <br/>
+      <a href="mailto:tenchieadolfo05@gmail.com" style="color: black;">TenchieAdolfo@gmail.com</a>
+    </footer>
+  </body>
+</html>
