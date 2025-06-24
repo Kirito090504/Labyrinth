@@ -1,9 +1,10 @@
 # JAVA
 
-| Folder Name       | Use Case Description       |
-| ----------------- | -------------------------- |
-| `ByteBites`       |                            |
-| `STLSanctum`      | Vectors, maps, sets        |
-| `PointerPantheon` | Pointers, dynamic memory   |
-| `ClassCitadel`    | OOP: classes, polymorphism |
-| `AlgorithmArena`  | Search, sort, graph        |
+| Folder Name        | Use Case Description     |
+| ------------------ | ------------------------ |
+| `ByteBites`        |                          |
+| `LogicLabyrinth`   |                          |
+| `ClassCastle`      | OOP Principles           |
+| `CollectionCreek`  | ArrayList, HashMap, etc. |
+| `ExceptionEstuary` |                          |
+| `GUIGrove`         | JavaFX/Swing             |
