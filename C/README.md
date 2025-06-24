@@ -1,4 +1,4 @@
-# Arduino
+# C
 
 | Folder Name          | Use Case Description   |
 | -------------------- | ---------------------- |
