@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+
+}
+
+#wrapper {
+    width: 90%;
+    min-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f0f0f0;
+}
+
+body{
+    background-color:#5280C5;
+    background-image: url(gradientblue.jpg);
+    color:#003366;
+    font-family: Verdana;
+}
+
+header {
+    background-color: #000066;
+    background-image: url(bigfish.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1em;
+    color: #f0f0f0;
+    text-align: center;
+    font-family: 'Georgia';
+}
+
+header a:link{
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+header a:visited{
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #AEC3E3;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3em;
+    padding: 0.2em;
+    text-shadow: #CCCCCC;
+}
+
+h2{
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #777;
+}
+
+nav {
+    float: left;
+    width: 180px;
+    font-weight: bold;
+    padding: .5em;
+}
+
+nav ul{list-style: none;}
+nav a{text-decoration: none;}
+nav a:link{color: #000066;}
+nav a:visited{color:  #5280C5;}
+nav a:hover{color:  #5280C5;}
+
+
+#home,#services,#askvet,#contact{
+    text-decoration:none;
+    color:#003366;
+    transition: all 0.15s;
+}
+
+#home:hover,#services:hover,#askvet:hover,#contact:hover{
+color: #5280c5;
+}
+
+dt,span {
+    color: #5280c5;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Georgia';
+}
+
+footer{
+    font-style: italic;
+    font-size: small;
+    text-align: center; 
+    padding: 1em;
+    margin-left: 180px;
+    background-color: #AEC3E3;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: 180px;
+  background-color: white;
+  border: 1px solid #AEC3E3;
+  overflow: auto;
+  display: block;
+}
+
+section{
+    float: left;
+    width: 30%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+    background-color: #EAEAEA;
+    min-height: 200px;
+}
+
+section h3{
+    padding: 0.25em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 110%;
+    background-color: #AEC3E3;
+}
+
+section p{
+    padding-top: 0;
+    padding-left: .25em;
+    padding-right: .25em;
+    padding-bottom: .25em;
+}
+
+.address{
+    clear: left;
+}
+
+.floatright{
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+}
