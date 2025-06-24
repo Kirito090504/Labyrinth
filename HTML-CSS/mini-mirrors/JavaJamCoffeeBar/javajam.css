@@ -1,0 +1,101 @@
+body{
+    background-image: url(fadedroad50.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.main{
+    margin: 20px;
+}
+
+#road{
+    width: 100%;
+    height: 300px;
+}
+
+header {
+    background-color: #d2b48c;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 10px;
+    }
+
+h1, h2,h3, h4{
+    color: #800000;
+    line-height: 200%;
+}
+
+#months{
+    color: black;
+    background-color: #d2b48c;
+    text-align: left;
+    padding-left: 10px;
+    position: relative;
+    bottom: 3px;
+}
+
+.buttons{
+    text-align: center;
+    font-weight: bold;
+    position: sticky;
+    top: 0%;
+    height: 20px;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+    }
+
+nav a {text-decoration: none;}
+
+#mugs{
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+#melanie, #greg{
+    position: relative;
+    left: 100px;
+}
+
+#p{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}
+    
+#home, #menu, #music, #jobs{
+    color: #221811;
+    width: 50px;
+    transition: all 0.15s;
+}
+
+#home:hover, #menu:hover, #music:hover, #jobs:hover{
+    cursor: pointer;
+    color: cadetblue;  
+}  
+
+footer{
+    background-color: #d2b48c;
+    font-size: small .60em;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 3px;
+    border-color:#800000;
+    border-style: outset;
+    }
+
+.wrapper{
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: 'Verdana';
+    position: relative;
+    margin: 230px;
+    width: 10px;
+    display: block;
+    min-width: 900px;
+    max-width: 1280px;  
+    box-shadow: 10px, 10px, black;
+}
