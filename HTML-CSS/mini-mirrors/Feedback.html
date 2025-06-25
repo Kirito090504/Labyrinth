@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <style>
+        body{
+            background-color:#A0AECD ;
+            font-family: Helvetica;
+            font-weight: bold;
+        }
+        
+        footer{
+            text-align: center;
+            background-color: #000000;
+            color: white;
+        }
+
+        footer a{text-decoration: none;}
+
+        #email, #comments{
+            background-color: #A0AECD;
+        }
+
+        fieldset{
+            border-color: #A0AECD;
+        }
+
+        #mail{
+            color: white;
+        }
+
+        #button{
+            background-color: #000000;
+            color: white;
+        }
+
+    </style>
+
+
+    <head>
+        <meta charset="utf-8">
+        <title>Feedback</title>
+    </head>
+
+    <body>
+        <form action="process_feedback.php" method="POST">
+
+        <fieldset>
+            <legend style="font-weight: bold; font-size: 20px;"> Feedback Form</legend>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="comments">Comments/Suggestions:</label><br>
+            <textarea id="comments" name="comments" rows="5" maxlength="1600" required></textarea><br><br>
+
+            <input type="submit" value="Submit" id="button">
+
+        </fieldset>
+
+        </form>
+
+
+        <footer><i><strong>
+            Tenchie M. Adolfo <br>
+            <a href="mailto:tenchieadolfo05@gmail.com" id="mail">tenchieadolfo05@gmail.com</a>
+        </strong></i></footer>
+
+</body>
+</html>

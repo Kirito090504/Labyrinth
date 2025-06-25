@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .item1 { grid-area: one; }
+        .item2 { grid-area: two; }
+        .item3 { grid-area: three; }
+        .item4 { grid-area: four; }
+
+
+        .grid-container {
+          display: grid;
+          grid-template-areas:
+            'one one one two two two'
+            'three three three three four four';
+          gap: 10px;
+          background-color:lightblue;
+          padding: 10px;
+        }
+
+        .grid-container > div {
+          background-color: royalblue;
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+
+</div>
+
+</body>
+</html>

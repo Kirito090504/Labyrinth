@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+legend{
+    font-weight: bold;
+    background-color: #E5B9A8;
+}
+
+label{
+    font-weight: bold;
+}
+
+select{
+    width: 60ch;
+    overflow: auto; 
+    border: 1px solid;
+}
+
+*{
+    background-color:#4A5FC1;
+    color: #E1FCFD;
+}
+
+fieldset, select{
+    background-color:#EAD6CD;
+    border-color: #9CF6FB;
+}
+
+fieldset label{
+    background-color: #EAD6CD;
+    color: black;
+}
+
+option{
+    font-weight: bold;
+}
+
+#comment, #n, #em{
+    background-color: #EAD6CD;
+}
+
+#submit, #reset{
+    background-color: #9CF6FB;
+    color: #4A5FC1;
+    border-color: #4A5FC1;
+}
+
+
+
+
+
+
+
+</style>
+
+    <head>
+        <title>Survey</title>
+        <meta charset="utf-8">
+    </head>
+
+    <header>
+        <h1>Music Survey</h1>
+    </header>
+
+<body>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="n" name="n" required><br><br>
+
+        <label for="email">Email:</label> <br>
+        <input type="email" id="em" name="em" required><br><br>
+
+        <fieldset>
+            <legend> Select Your Favorite Types of Music:</legend>
+
+                    <input type="checkbox" name="t" id="t"><label>Pop</label> 
+                <br><input type="checkbox" name="t" id="t"><label>Classical</label>
+                <br><input type="checkbox" name="t" id="t"><label>Rock</label>
+                <br><input type="checkbox" name="t" id="t"><label>Folk</label>
+                <br><input type="checkbox" name="t" id="t"><label>Rap</label>
+                <br><input type="checkbox" name="t" id="t"><label>Other</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend id="title"> Select how often you purchase music</legend>
+                    <input type="radio" name="m" id="m"><label>Weekly</label> 
+                <br><input type="radio" name="m" id="m"><label>A few CDs each year</label>
+                <br><input type="radio" name="m" id="m"><label>Monthly</label>
+                <br><input type="radio" name="m" id="m"><label>Never purchase</label>
+        </fieldset>
+        
+        <br>
+
+        
+        <label for="title" id="title">Select the locations you listen to Music:</label>
+
+        <br>
+
+        <select size="3" >
+                <option value="AH">At home</option>
+                <option value="ITC">In the car</option>
+                <option value="A">Anywhere</option>
+                <option value="S">Shower</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="role" id="title"> What role does music play in your life?</label>
+        <br>
+        <textarea id="comment" required> </textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Submit" id="submit">
+        <input type="reset" value="Reset" id="reset">
+
+    </form>
+
+
+</body>
+
+</html>
